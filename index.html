@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body
+    class="font-hankengrotesk flex h-screen flex-col items-center justify-center bg-white shadow-2xl"
+  >
+    <div
+      class="flex h-screen flex-col rounded-3xl bg-white shadow-2xl sm:h-auto sm:max-w-xl sm:flex-row"
+    >
+      <div
+        class="flex flex-col items-center gap-4 rounded-b-3xl bg-gradient-to-b from-[#7857ff] to-[#2e2be9] pt-8 text-center text-white sm:w-auto sm:rounded-3xl"
+      >
+        <h1 class="pb-4 font-bold text-slate-300">Your Result</h1>
+        <div
+          class="flex h-36 w-36 flex-col items-center justify-center rounded-full bg-gradient-to-b from-[#4E21CA] to-[#4633ef]"
+        >
+          <p class="text-6xl font-bold">76</p>
+          <p class="pt-2 text-slate-300">of 100</p>
+        </div>
+        <p class="pt-4 text-2xl font-semibold">Great</p>
+        <p class="px-8 pb-8 text-slate-300 sm:pb-0">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="flex flex-col gap-4 p-8 sm:w-full">
+        <h2 class="text-lg font-bold text-[#303b5a]">Summary</h2>
+        <div
+          class="flex justify-between rounded-md bg-red-50 p-3 font-semibold text-[#ff5757]"
+        >
+          <p class="flex items-center gap-2">
+            <img
+              class="p-1"
+              src="./assets/images/icon-reaction.svg"
+              alt="Energy icon"
+            />
+            Reaction
+          </p>
+
+          <div>
+            <div class="font-bold text-[#303b5a]">
+              80
+              <span class="text-slate-400">/ 100</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex justify-between rounded-md bg-yellow-50 p-3 font-semibold text-[#ffb01f]"
+        >
+          <p class="flex items-center gap-2">
+            <img
+              class="p-1"
+              src="./assets/images/icon-memory.svg"
+              alt="Brain icon"
+            />
+            Memory
+          </p>
+
+          <div class="flex w-full justify-end">
+            <div class="font-bold text-[#303b5a]">
+              92 <span class="text-slate-400"> / 100</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex justify-between rounded-md bg-green-50 p-3 font-semibold text-[#00bd91]"
+        >
+          <p class="flex items-center gap-2">
+            <img
+              class="p-1"
+              src="./assets/images/icon-verbal.svg"
+              alt="Verbal icon"
+            />
+            Verbal
+          </p>
+
+          <div class="flex w-full justify-end">
+            <div class="font-bold text-[#303b5a]">
+              61 <span class="text-slate-400"> / 100</span>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex justify-between rounded-md bg-purple-50 p-3 font-semibold text-[#1125d4]"
+        >
+          <p class="flex items-center gap-2">
+            <img
+              class="p-1"
+              src="./assets/images/icon-visual.svg"
+              alt="Eye icon"
+            />
+            Visual
+          </p>
+
+          <div class="flex w-full justify-end">
+            <div class="font-bold text-[#303b5a]">
+              72 <span class="text-slate-400">/ 100</span>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="mt-3 rounded-full bg-[#303b5a] from-[#7857ff] to-[#2e2be9] p-4 font-semibold text-white hover:bg-gradient-to-b"
+        >
+          Continue
+        </button>
+      </div>
+    </div>
+
+    <div class="attribution fixed bottom-5">
+      Challenge by
+      <a
+        rel="noopener"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/sirpath">SirPath</a>.
+    </div>
+  </body>
+</html>
