@@ -1,0 +1,17 @@
+{
+  "name": "result-summary-component",
+  "version": "0.0.1",
+  "description": "![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.html",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./tailwind.css -o ./src/style.css --watch"
+  },
+  "keywords": [],
+  "author": "SirPath",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.0.2",
+    "prettier-plugin-tailwindcss": "^0.5.3",
+    "tailwindcss": "^3.3.3"
+  }
+}
